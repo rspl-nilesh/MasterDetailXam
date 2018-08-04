@@ -41,6 +41,9 @@
     <AndroidSigningStorePass>AndroidCI</AndroidSigningStorePass>
     <AndroidSigningKeyAlias>AndroidCI</AndroidSigningKeyAlias>
     <AndroidSigningKeyPass>AndroidCI</AndroidSigningKeyPass>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+    <EmbedAssembliesIntoApk>true</EmbedAssembliesIntoApk>
+    <AndroidSupportedAbis>armeabi-v7a</AndroidSupportedAbis>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Mock|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
